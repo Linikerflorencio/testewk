@@ -1,0 +1,68 @@
+.container {
+    width: 450px;
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.container h1 {
+text-align: center;
+font-size: 30px;
+color: white;
+}
+
+.container .input-name {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px auto;
+}
+
+.input-name input {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px;
+    transition: 200ms linear;
+}
+
+.input-name input:hover {
+    padding: 20px 45px;
+    transform: translateY(4px);
+}
+
+.input-name input::placeholder {
+    color: #fff;
+}
+
+.container button {
+    width: 100%;
+    height: 45px;
+    font-weight: bold;
+    text-shadow: none;
+    color: #000;
+    background-color: #0FC6B4;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0 , 0.1);
+    cursor: pointer;
+    font-size: 16px;
+    transition: 500ms linear;
+}
+
+.container button:hover {
+    background-color:#9AD8DB;
+    transform: scale(0.1.0.1);
+}
+
+.erro {
+color: red;
+}
